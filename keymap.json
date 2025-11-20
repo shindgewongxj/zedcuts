@@ -1,0 +1,183 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-cmd-j": "editor::GoToDefinition"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-shift-i": "editor::Format"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-shift-i": null
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-alt-shift-i": "editor::FormatSelections"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-cmd-x": "git::Pull"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-shift-a": "command_palette::Toggle"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-shift-p": null
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "cmd-shift-p": "pane::TogglePinTab"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "cmd-k shift-enter": null
+    }
+  },
+  {
+    "context": "GitPanel",
+    "bindings": {
+      "ctrl-g down": null
+    }
+  },
+  {
+    "context": "!ContextEditor > (Editor && mode == full)",
+    "bindings": {
+      "cmd-shift-j": "pane::RevealInProjectPanel"
+    }
+  },
+  {
+    "context": "!ContextEditor > (Editor && mode == full)",
+    "bindings": {
+      "cmd-shift-e": null
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-1": "project_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-2": "git_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-3": "outline_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-shift-o": "project_symbols::Toggle"
+    }
+  },
+  {
+    "context": "(Editor && mode == full)",
+    "bindings": {
+      "cmd-l": "go_to_line::Toggle"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-d": "editor::DuplicateLineDown"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-t": null
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "alt-cmd-[": "editor::MoveLineUp"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "alt-cmd-]": "editor::MoveLineDown"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "alt-up": null
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "alt-down": null
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "f9": null
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-\\": "editor::ToggleBreakpoint"
+    }
+  },
+  {
+    "context": "(Editor && mode == full)",
+    "bindings": {
+      "ctrl-\\": "editor::GoToNextChange"
+    }
+  },
+  {
+    "context": "(Editor && mode == full)",
+    "bindings": {
+      "alt-cmd-shift-backspace": null
+    }
+  },
+  {
+    "context": "(Editor && mode == full)",
+    "bindings": {
+      "ctrl-|": "editor::GoToPreviousChange"
+    }
+  },
+  {
+    "context": "(Editor && mode == full)",
+    "bindings": {
+      "cmd-shift-backspace": null
+    }
+  }
+]
